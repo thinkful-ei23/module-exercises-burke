@@ -40,7 +40,7 @@ const store = (function () {
   };
 
   const findAndDelete = function(id) {
-    this.items.filter(element => element.id !== id);
+    this.items = this.items.filter(element => element.id !== id);
   };
 
   return {
