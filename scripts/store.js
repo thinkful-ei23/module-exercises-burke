@@ -9,6 +9,11 @@ const store = (function () {
   const hideCheckedItems = false;
   const searchTerm = '';
 
-  return {};
+  return {
+    items,
+    hideCheckedItems,
+    searchTerm
+  };
 
 }() );
+
