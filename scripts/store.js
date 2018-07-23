@@ -43,6 +43,10 @@ const store = (function () {
     this.items = this.items.filter(element => element.id !== id);
   };
 
+  const toggleCheckedFilter = function () {
+    this.items.checked = !this.items.checked;
+  };
+
   return {
     items,
     hideCheckedItems,

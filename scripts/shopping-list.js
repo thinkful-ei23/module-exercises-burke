@@ -99,10 +99,6 @@ const shoppingList = (function(){
   
 
   
-  function toggleCheckedItemsFilter() {
-    store.hideCheckedItems = !store.hideCheckedItems;
-  }
-  
   function setSearchTerm(val) {
     store.searchTerm = val;
   }
