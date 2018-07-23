@@ -1,5 +1,6 @@
 'use strict';
-/*global $*/
+/* global cuid */
+/* global $ */
 
 const Item = (function() {
   const validateName = function(name) {
