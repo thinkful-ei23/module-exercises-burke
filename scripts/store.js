@@ -1,5 +1,5 @@
 'use strict';
-/* global store, cuid, Item */
+/* global cuid, Item */
 
 const store = (function () {
 
